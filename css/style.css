@@ -1,0 +1,314 @@
+:root
+{
+    --color-primary: #c8a64c;
+    --color-second: #801336;
+    --color-three: #C72C41;
+    --color-four: #EE4540;
+}
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    overflow-x: hidden;
+    box-sizing: border-box
+}
+
+a, a:hover
+{
+    text-decoration: none;
+}
+
+/* NAV BAR */
+
+.topNav
+{
+    width: 100%;
+    background-color: white;
+    height: 6rem;
+}
+
+.logo img
+{
+    height: 4rem;
+    width: 4rem;
+}
+
+.logo h1
+{
+    margin-top: auto;
+    margin-left: 1rem;
+    color: var(--color-primary)
+}
+
+.navLink li a
+{
+    color: black;
+    font-size: 1.6rem;
+}
+
+.navLink li a:hover
+{
+    color: var(--color-primary);
+    transition: all .5s;
+}
+
+/* HEADER */
+
+.header
+{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../back/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerTitle
+{
+    padding-top: 15%;
+    padding-bottom: 2rem;
+}
+
+.headerTitle h1
+{
+    font-size: 4.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.headerTitle span
+{
+    font-style: italic;
+    color: red;
+}
+
+.headerTitle h2
+{
+    font: 1.8rem;
+    color: white;
+    font-style: italic;
+}
+
+.headerButton button:hover
+{
+    background: var(--color-primary);
+}
+
+.headerButton .btnLocation
+{
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    margin-right: 3rem;
+}
+
+.headerButton .btnAchat
+{
+    padding: 1rem 4.5rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.8rem;
+    border-radius: 10px;
+}
+
+/* SECTION LOCATION */
+
+.sectionLocation
+{
+    width: 100%;
+    min-height: 40rem;
+    padding: 4rem 0;
+}
+
+.sectionTitle
+{
+    background-color: var(--color-primary);
+    padding: 1.5rem 0;
+}
+
+.sectionTitle h1
+{
+    font-weight: bold;
+    color: white;
+}
+
+.sectionArticle
+{
+    margin-top: 3rem;
+}
+
+.cardSection
+{
+    min-height: 30rem;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.cardIllustration
+{
+    min-height: 20rem;
+    width: 100%;
+    background-color: var(--color-primary);
+    padding: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardIllustration img
+{
+    height: 18rem;
+    
+}
+
+.cardDescription
+{
+    padding: 1.5rem 2rem;
+}
+
+.cardDescription h2
+{
+    font-size: 2.3rem;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.cardDescription p
+{
+    font-size: 1.4rem;
+}
+
+.cardDescription button
+{
+    padding: .7rem 2rem;
+    border: 2px solid var(--color-primary);
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.cardDescription button:hover
+{
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* SECTION LOCATION */
+
+.sectionLocation
+{
+    width: 100%;
+    min-height: 40rem;
+    padding: 2rem 0;
+}
+
+/* FOOTER */
+
+.footer
+{
+    min-height: 25rem;
+    width: 100%;
+    background-color: black;
+    padding: 2rem 0;
+}
+
+.footerContent
+{
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #222120;
+}
+
+.footer .Logo
+{
+    margin-bottom: 2rem;
+}
+.footer .Logo img
+{
+    height: 4rem;
+    width: 4rem;
+}
+
+.footer .Logo h1
+{
+    margin-top: auto;
+    margin-left: 1rem;
+    color: var(--color-primary);
+}
+
+.footer .Description p
+{
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+.footerTitle h1
+{
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.footer .detail a
+{
+    font-size: 1.4rem;
+    color: #ccc;
+}
+
+.footer .detail a:hover
+{
+    color: var(--color-primary);
+}
+
+.footer .detail p
+{
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+.socialNetwork
+{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.socialNetwork p
+{
+    color: #ccc;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+}
+
+.socialNetwork img
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 2rem;
+}
+
+.copyright
+{
+    margin-top: 1rem;
+}
+
+.copyright p
+{
+    color: #ccc;
+    font-size: 1.4rem;
+}
