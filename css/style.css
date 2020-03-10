@@ -161,7 +161,13 @@ a, a:hover
     width: 100%;
     box-shadow: 2px 2px 2px 2px #ccc;
     border-radius: 10px;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+.cardSection:hover
+{
+    transform: scale(1.1);
+    transition: all .5s ease;
 }
 
 .cardIllustration
